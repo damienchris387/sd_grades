@@ -12,7 +12,7 @@ def pass_fail(score: int) -> str:
 
 def analyze_scores(scores: list[int]) -> None:
     for sc in scores:
-        print(f"{sc}: {pass_fail(sc)}")
+        print(f"Score {sc} → {pass_fail(sc)}")
 
 if __name__ == "__main__":
     scores = [95, 82, 67, 54, 100, 73]
